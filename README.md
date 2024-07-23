@@ -1,4 +1,6 @@
-# GEN220_2025_concepts
+# GEN220: Computational Analysis of High Throughput Biological Data
+
+Focus: Bioinformatics and Data Plumbing
 Revamped Concept Teaching for GEN220
 
 ## Data focused with UNIX, Python, and R
@@ -25,11 +27,25 @@ Revamped Concept Teaching for GEN220
 
 1. Sequence data types
 2. Genome assembly
-3. Population data
+    * Long read assembly tools (w/ polishing or hybrid assembly)
+    * Short read assembly tools
+3. Genome annotation
+   * Bacteria focused (prodigal and prokka and beav)
+4. Read and sequence alignment
+    * BLAST and FASTA
+    * minimap2
+    * bwa, bwa-mem2
+    * LAST
+5. Population data
     * Variant calling into VCF format
     * VCF querying, reprocessing with bcftools
     * vcfR to visualize and QC
     * PCA and Trees from VCF
     * Structure plots
-5. Phylogenetic tree construction and aggregation
-6. 
+6. Viz genome datasets
+7. Phylogenetic tree construction and aggregation
+    * Plotting trees in ggtree
+    * Summarizing trees
+8. RNAseq
+    * kallisto to get TPM
+9. Synteny visualization and analysis
